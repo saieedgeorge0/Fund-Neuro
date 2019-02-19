@@ -1,0 +1,192 @@
+html, body {
+    font-family: 'Nunito';
+    font-size: 16px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Raleway';
+}
+
+.nav {
+    font-family: 'Raleway';
+    font-weight: 100;
+}
+
+.downloadzz {
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-weight: 500;
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.9em;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    background: black;
+    color: white;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.title {
+    font-family: 'Raleway';
+}
+
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.downloadlink {
+    text-decoration: underline;
+    color: white;
+}
+
+.week {
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+}
+
+.zaweek {
+    display: none;
+}
+
+.week-1, .week-2, .week-3, .week-4, .week-5, .week-6, .week-7, .week-8, .week-9, .week-10 {
+    padding-top: 0;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.bullet {
+    display: block;
+    padding-bottom: 2px;
+}
+
+.bullet-1 {
+    padding-left: 30px;
+}
+
+.bullet-2 {
+    padding-left: 60px;
+}
+
+.bullet-3 {
+    padding-left: 90px;
+}
+
+.video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin: 20px auto;
+}
+
+.video-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.image {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.image-inside {
+    width: 80%;
+}
+
+.image-inside2 {
+    width: 100%;
+}
+
+.top {
+    color: gray;
+}
+
+.right {
+    float: right;
+}
+
+.title {
+    font-size: 3em;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.nav {
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    padding: 15px 10px;
+}
+
+.attr {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.weeklink {
+    margin-right: 10px;
+}
+
+.selected {
+    display: block;
+}
+
+@media (max-width: 1236px) {
+    .week {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1065px) {
+    .week {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .week {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    body, html {
+        font-size: 14px;
+    }
+
+    .bullet-1 {
+        padding-left: 20px;
+    }
+
+    .bullet-2 {
+        padding-left: 40px;
+    }
+}
